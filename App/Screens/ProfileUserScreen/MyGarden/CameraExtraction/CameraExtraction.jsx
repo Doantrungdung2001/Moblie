@@ -17,6 +17,7 @@ const CameraExtraction = ({ gardenId }) => {
     useCameraExtraction({
       gardenId: gardenId,
     });
+
   const [fillterVideos, setFillterVideos] = useState(allVideos);
   const [date, setDate] = useState(new Date());
   const [showPicker, setShowPicker] = useState(false);
